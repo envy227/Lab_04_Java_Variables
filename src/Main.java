@@ -1,18 +1,10 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        int intOperandA = 25;
-        int intOperandB = 7;
-
-
-        int intSum = 0;
-        int intProduct = 0;
-        int intDifference = 0;
-        int intQuotient = 0;
-        int intModulo = 0;
-
+        // Integer variables
+        int intOperandA = 10;
+        int intOperandB = 3;
+        int intSum, intProduct, intDifference, intQuotient, intModulo;
 
         intSum = intOperandA + intOperandB;
         System.out.println("The sum using ints of " + intOperandA + " and " + intOperandB + " is " + intSum);
@@ -23,23 +15,16 @@ public class Main {
         intDifference = intOperandA - intOperandB;
         System.out.println("The difference using ints of " + intOperandA + " and " + intOperandB + " is " + intDifference);
 
-
         intQuotient = intOperandA / intOperandB;
         System.out.println("The quotient using ints of " + intOperandA + " and " + intOperandB + " is " + intQuotient);
 
         intModulo = intOperandA % intOperandB;
-        System.out.println("The modulo (remainder) using ints of " + intOperandA + " and " + intOperandB + " is " + intModulo);
+        System.out.println("The modulo using ints of " + intOperandA + " and " + intOperandB + " is " + intModulo);
 
-        System.out.println();
-
-
-
-        double doubleOperandA = 3.14;
-        double doubleOperandB = 1.5;
-        double doubleSum = 0.0;
-        double doubleProduct = 0.0;
-        double doubleDifference = 0.0;
-        double doubleQuotient = 0.0;
+        // Double variables
+        double doubleOperandA = 10.5;
+        double doubleOperandB = 3.2;
+        double doubleSum, doubleProduct, doubleDifference, doubleQuotient;
 
         doubleSum = doubleOperandA + doubleOperandB;
         System.out.println("The sum using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum);
@@ -53,18 +38,23 @@ public class Main {
         doubleQuotient = doubleOperandA / doubleOperandB;
         System.out.println("The quotient using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
 
-        System.out.println();
+        // Other variables
+        double myLunchCost = 12.50;
+        int familySize = 4;
+        boolean isRaining = false;
+        double gasPrice = 3.75;
+        int favoriteNumber = 7;
+        double shoeSize = 7.5;
+        int birthMonth = 9;
+        String fullName = "Khushi Devadiga";
 
-
-        int numberOfKidsInFamily = 3;
-        boolean isItRaining = false;
-        double priceOfGas = 3.89;
-        int yourFavoriteNumber = 13;
-        double yourShoeSize = 9.5;
-        String yourBirthMonth = "October";
-        String yourFullName = "Khushi Devadiga";
-
-        // Optional: Print a variable to confirm it works
-        System.out.println("My full name is: " + yourFullName);
+        System.out.println("The cost of my lunch is: " + myLunchCost);
+        System.out.println("My family has " + familySize + " members.");
+        System.out.println("Is it raining? " + isRaining);
+        System.out.println("The price of gas is $" + gasPrice);
+        System.out.println("My favorite number is: " + favoriteNumber);
+        System.out.println("My shoe size is: " + shoeSize);
+        System.out.println("My birth month is: " + birthMonth);
+        System.out.println("My full name is: " + fullName);
     }
 }
